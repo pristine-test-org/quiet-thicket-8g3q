@@ -1,21 +1,16 @@
 # Quiet Thicket: Monorepo · Vercel (protected)
 
-> **This is a template, not a repository.** Copy it out and prepare it before an eval (steps below).
-> Nothing here is deployed.
-
 A monorepo with three apps on **Vercel**, with preview links **behind Vercel's login (Standard Protection)**. Static Vite +
 TypeScript, no framework. The page reads a live list from the shared Supabase test project.
 Row in the support matrix: impeccable-reviews#302.
 
 ## Deployment links
 
-Filled in at prep time.
-
 | App | Folder | Production | Preview gate |
 |---|---|---|---|
-| _app one_ | `apps/<app>` | _not deployed_ | yes |
-| _app two_ | `apps/<app>` | _not deployed_ | yes |
-| _app three_ | `apps/<app>` | _not deployed_ | yes |
+| Lovage | `apps/lovage-xrf` | https://quiet-thicket-8g3q-lovage-xrf.vercel.app | yes |
+| Chervil | `apps/chervil-iwg` | https://quiet-thicket-8g3q-chervil-iwg.vercel.app | yes |
+| Zinnia | `apps/zinnia-hh7` | https://quiet-thicket-8g3q-zinnia-hh7.vercel.app | yes |
 
 ## Names
 
