@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Why it helps · Lovage</title>
+    <style>
+      :root { font-family: system-ui, sans-serif; color: #1c1c1c; background: #fafaf7; --accent: #2f7d4f; }
+      body { margin: 0; }
+      header, footer { max-width: 44rem; margin: 0 auto; padding: 1.25rem 1rem; }
+      header { display: flex; justify-content: space-between; align-items: center; }
+      header a { color: var(--accent); }
+      .mark { font-weight: 700; color: var(--accent); }
+      main { max-width: 44rem; margin: 0 auto; padding: 3rem 0; }
+      /* Intentional, for Impeccable's test drive: gradient text on the heading. */
+      h1 {
+        font-size: clamp(2rem, 6vw, 3.25rem); margin: 0 1rem 1rem;
+        background: linear-gradient(90deg, #2f7d4f, #b8c82f);
+        -webkit-background-clip: text; background-clip: text;
+        color: transparent; -webkit-text-fill-color: transparent;
+      }
+      /* Intentional, for Impeccable's test drive: body text flush with the viewport edge (no side padding, no background). */
+      .lead { margin: 0 0 1.5rem; padding: 0; font-size: 1.1rem; line-height: 1.6; }
+      /* Intentional, for Impeccable's test drive: text in a light grey well under 4.5:1 contrast. */
+      .note { margin: 0 1rem 1.5rem; color: #c9c9c4; line-height: 1.6; }
+      ul.reasons { margin: 0 1rem 1.5rem; padding-left: 1.2rem; line-height: 1.8; }
+      /* Intentional, for Impeccable's test drive: transition on a layout property (width). */
+      .meter { margin: 0 1rem 1.5rem; height: 0.5rem; width: 40%; background: var(--accent); border-radius: 0.25rem; transition: width 0.3s; }
+      .meter:hover { width: 100%; }
+      /* Intentional, for Impeccable's test drive: link text under the 11px floor. */
+      .back { margin: 0 1rem; font-size: 10px; color: var(--accent); }
+      footer { color: #777; font-size: 0.9rem; border-top: 1px solid #e5e5e0; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <span class="mark">Lovage</span>
+      <a href="/">The front door</a>
+    </header>
+    <main>
+      <h1>Why it helps</h1>
+      <p class="lead">Lovage keeps the shared list on one calm page, so everyone starts the day from the same place.</p>
+      <p class="note">There is nothing to set up and nothing to learn before you can use it.</p>
+      <ul class="reasons">
+        <li>One page, one list, no clutter.</li>
+        <li>The newest items are always at the top.</li>
+        <li>Finished work is marked, so nothing gets done twice.</li>
+      </ul>
+      <div class="meter" aria-hidden="true"></div>
+      <a class="back" href="/">Back to the front door</a>
+    </main>
+    <footer>Lovage · what it is and why it helps</footer>
+  </body>
+</html>
